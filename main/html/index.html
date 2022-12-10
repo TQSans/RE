@@ -4,13 +4,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="" />
+    <meta name="description" content="TQSans's page" />
     <title>TQSans</title>
-    <link
-      rel="icon"
-      href="https://avatars.githubusercontent.com/u/111428895?v=4"
-      sizes=" 16x16"
-    />
+    <link rel="icon" href="../img/index-logo.png" sizes=" 16x16" />
     <link rel="stylesheet" href="../css/index.css" />
   </head>
   <body class="flex">
@@ -18,23 +14,19 @@
     <div style="width: 200px" class="baise cebianlan">
       <!--头像栏-->
       <div
-        style="
-          padding: 10px;
-          align-items: center;
-          border-bottom: 1px solid #999;
-        "
+        style="padding: 10px; border-bottom: 1px solid #999"
         class="baise flex"
       >
         <img
-          src="https://avatars.githubusercontent.com/u/111428895?v=4"
+          src="../img/index-logo.png"
           alt="logo"
-          width="50px"
-          height="50px"
+          width="180px"
+          height="180px"
+          class="flex"
+          style="justify-self: center"
         />
-        <div style="margin-left: 20px">TQSans</div>
       </div>
       <!--导航栏-->
-      <div class="daohang">导航</div>
       <div class="flex1">
         <div class="daohang">
           <a
@@ -63,7 +55,39 @@
       </div>
     </div>
     <!--主区域-->
+    <!--顶部栏-->
     <div class="flex1 flex column">
+      <lbx
+        class="mg5 flex"
+        style="height: 80px; justify-content: center; align-items: center"
+      >
+        <a href="./index.html"
+          ><button
+            type="button"
+            align="center"
+            style="
+              background-color: rgb(159, 183, 219);
+              width: 70px;
+              height: 70px;
+            "
+          >
+            首页
+          </button>
+        </a>
+        <a href="./page2.html">
+          <button
+            type="button"
+            align="center"
+            style="
+              background-color: rgb(159, 183, 219);
+              width: 70px;
+              height: 70px;
+            "
+          >
+            语言解释
+          </button>
+        </a>
+      </lbx>
       <!--内容区-->
       <div style="overflow: auto" class="flex1 flex neironglan">
         <!--left-->
@@ -118,16 +142,17 @@
             <script src="../js/index.js"></script>
             <lbx
               class="flex column"
-              style="height: 200px; justify-content: center"
+              style="height: 250px; justify-content: center"
             >
               <i
                 style="
                   color: rgb(255, 132, 0);
-                  font-size: 30pt;
+                  font-size: 40pt;
                   justify-content: center;
                 "
                 id="msg"
                 align="center"
+                class="msgs"
                 onclick="changeMsg()"
               >
                 不断探索<br />分享进步
@@ -137,9 +162,7 @@
               class="flex column"
               style="height: 200px; justify-content: center"
             >
-              <lbxt-0 align="center"
-                >Re01(我html css 都从这学的)套装链接</lbxt-0
-              >
+              <lbxt-0 align="center">Re01套装链接</lbxt-0>
               <a
                 align="center"
                 class="lbxt-1"
@@ -156,7 +179,8 @@
                 align="center"
                 class="lbxt-1"
                 href="https://www.midorg.com/h.html"
-              ></a>
+                >在线编辑html</a
+              >
             </lbx>
             <lbx style="height: 200px"></lbx>
             <lbx style="height: 200px"></lbx>
