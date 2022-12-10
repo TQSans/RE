@@ -7,10 +7,21 @@ body {
   color: skyblue;
 }
 lbx {
+  align-content: center;
   background-color: rgb(29, 29, 29);
   margin-top: 5px;
   border: rgb(0 0 0 / 20%);
   border-bottom: 5px solid rgba(0, 0, 0, 0.4);
+}
+lbxt-0 {
+  color: salmon;
+  font-size: 15pt;
+  justify-content: center;
+}
+.lbxt-1 {
+  color: salmon;
+  font-size: 15pt;
+  justify-content: center;
 }
 .bianyuan {
   border: rgb(0 0 0 / 20%);
